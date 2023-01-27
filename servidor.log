@@ -1,0 +1,3 @@
+INFO main works.alga.estudos.log4j.ExemploSalvandoCliente - iniciando a aplicação
+WARN main works.alga.estudos.log4j.dao.ClienteDAO - cliente digitado é nulo
+INFO main works.alga.estudos.log4j.ExemploSalvandoCliente - finalizando a aplicação.

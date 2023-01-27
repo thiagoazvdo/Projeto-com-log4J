@@ -10,13 +10,14 @@ public class ConfiguracaoBasica {
 	public static void main(String[] args) {
 
 		BasicConfigurator.configure();
-		/*o basic configurator eh bem simples e está sendo usado apenas para fins didáticos
-		 * geralmente no mercado de trabalho sao usadas outras classes que geram arquivos
-		 * ao inves de imprimir no console como eh o caso desse exemplo
+		/*
+		 * arquivo log4j.properties na pasta desse proj eh um exemplo de impressao de log no console
+		 * arquivo log4jII.properties eh um exemplo de impressao de log em arquivo
 		 */
 		
 
 		logger.info("começando a aplicação.");
+		//.info indica o nível do log
 		logger.info("finalizando a aplicação");
 
 		/*imprime no console as informações :
